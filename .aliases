@@ -149,3 +149,7 @@ alias reload="exec ${SHELL} -l"
 
 # Print each PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
+
+# Add colorful theme inspired by https://github.com/trapd00r
+eval $(dircolors -b $HOME/.dircolors)
+
