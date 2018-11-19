@@ -34,10 +34,10 @@ endif
 " Don’t create backups when editing files in certain directories
 set backupskip=/tmp/*,/private/tmp/*
 
-" Respect modeline in files
+"" Respect modeline in files
 set modeline
 set modelines=4
-" Enable per-directory .vimrc files and disable unsafe commands in them
+"" Enable per-directory .vimrc files and disable unsafe commands in them
 set exrc
 set secure
 " Enable line numbers
@@ -47,7 +47,7 @@ syntax on
 " Highlight current line
 set cursorline
 " Make tabs as wide as two spaces
-set tabstop=2
+set tabstop=4
 " Show “invisible” characters
 set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_
 set list
@@ -81,7 +81,7 @@ if exists("&relativenumber")
 	au BufReadPost * set relativenumber
 endif
 " Start scrolling three lines before the horizontal window border
-set scrolloff=3
+set scrolloff=5
 
 " Strip trailing whitespace (,ss)
 function! StripWhitespace()
