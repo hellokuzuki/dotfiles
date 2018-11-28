@@ -51,6 +51,8 @@ syntax on
 set cursorline
 " Make tabs as wide as two spaces
 set tabstop=4
+" Indenting is 4 spaces
+set shiftwidth=4
 " Show “invisible” characters
 set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_
 set list
